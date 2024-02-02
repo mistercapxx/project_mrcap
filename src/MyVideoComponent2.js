@@ -1,5 +1,5 @@
 import React from 'react';
-import videoFile1 from '/Users/mistercap/WebstormProjects/project_mrcap/src/4.mp4';
+import videoFile1 from '/Users/mistercap/WebstormProjects/project_mrcap/src/888sized.mp4';
 
 
 const MyVideoComponent2 = () => {
