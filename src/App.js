@@ -17,7 +17,7 @@ import gith from './Logos/Screenshot 2024-01-25 at 11.47.20.png';
 import linke from './Logos/Screenshot 2024-01-25 at 11.48.02.png';
 import ttv from './Logos/Screenshot 2024-01-25 at 11.48.15.png';
 import logo from './Logos/9cd879a7-c272-4710-8fff-af63facaf02d.png';
-// import GoogleDriveVideo from './GoogleDriveVideo'; // Import the GoogleDriveVideo component
+// import GoogleDriveVideo from './GoogleDriveVideo';
 //
 import MyVideoComponent from './MyVideoComponent';
 import MyVideoComponent2 from './MyVideoComponent2';
