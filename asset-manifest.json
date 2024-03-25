@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/project_mrcap/static/css/main.bbe8e989.css",
+    "main.js": "/project_mrcap/static/js/main.f4d366ee.js",
+    "static/js/787.87aa5496.chunk.js": "/project_mrcap/static/js/787.87aa5496.chunk.js",
+    "static/media/222sized.mp4": "/project_mrcap/static/media/222sized.3c4e121474fc3cdc9c1f.mp4",
+    "static/media/111sized.mp4": "/project_mrcap/static/media/111sized.6032b922c90a9089bf59.mp4",
+    "static/media/888sized.mp4": "/project_mrcap/static/media/888sized.a655e90f10b9235d3f4e.mp4",
+    "static/media/2project.png": "/project_mrcap/static/media/2project.ff52e2e2105f4c87145f.png",
+    "static/media/555sized.mp4": "/project_mrcap/static/media/555sized.fb0d925b131e0645a62d.mp4",
+    "static/media/444sized.mp4": "/project_mrcap/static/media/444sized.f5b0b41d3109704574c3.mp4",
+    "static/media/1project.png": "/project_mrcap/static/media/1project.686114b3f33d6c9afdad.png",
+    "static/media/333sized.mp4": "/project_mrcap/static/media/333sized.3a5aa8825f7b186cfc16.mp4",
+    "static/media/777sized.mp4": "/project_mrcap/static/media/777sized.6e7f3548bcce59819a4b.mp4",
+    "static/media/666sized.mp4": "/project_mrcap/static/media/666sized.c436fcc12e7cccad1e79.mp4",
+    "static/media/logo-icon696.webp": "/project_mrcap/static/media/logo-icon696.2373387ddc2f68e86f98.webp",
+    "static/media/css-logo.png": "/project_mrcap/static/media/css-logo.bee63b9e863f48d93bda.png",
+    "static/media/capcut-logo-on-transparent-white-background-free-vector.jpg": "/project_mrcap/static/media/capcut-logo-on-transparent-white-background-free-vector.9c14d8046fc367ea8c6b.jpg",
+    "static/media/Vegas_Pro_15.0.png": "/project_mrcap/static/media/Vegas_Pro_15.0.7a7d45a5f9db4bed1ea8.png",
+    "static/media/HTML5_logo_and_wordmark.svg.png": "/project_mrcap/static/media/HTML5_logo_and_wordmark.svg.288e509b9f471582d837.png",
+    "static/media/Screenshot 2024-01-25 at 11.45.53.png": "/project_mrcap/static/media/Screenshot 2024-01-25 at 11.45.53.413b5813fe7c5d6850de.png",
+    "static/media/JavaScript-logo.png": "/project_mrcap/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
+    "index.html": "/project_mrcap/index.html",
+    "main.bbe8e989.css.map": "/project_mrcap/static/css/main.bbe8e989.css.map",
+    "main.f4d366ee.js.map": "/project_mrcap/static/js/main.f4d366ee.js.map",
+    "787.87aa5496.chunk.js.map": "/project_mrcap/static/js/787.87aa5496.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbe8e989.css",
+    "static/js/main.f4d366ee.js"
+  ]
+}
