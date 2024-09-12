@@ -3,7 +3,6 @@ import './App.css';
 import Basket from "./Baskt.json";
 import Waving from "./Waving.json";
 import Lottie from "lottie-react";
-// import './MyVideoComponent.css';
 import firstproj from './1project.png';
 import secondproj from './2project.png';
 import htmllogo from './Logos/HTML5_logo_and_wordmark.svg.png';
@@ -16,9 +15,6 @@ import inst from './Logos/Screenshot 2024-01-25 at 11.45.53.png';
 import gith from './Logos/Screenshot 2024-01-25 at 11.47.20.png';
 import linke from './Logos/Screenshot 2024-01-25 at 11.48.02.png';
 import ttv from './Logos/Screenshot 2024-01-25 at 11.48.15.png';
-import logo from './Logos/9cd879a7-c272-4710-8fff-af63facaf02d.png';
-// import GoogleDriveVideo from './GoogleDriveVideo';
-//
 import MyVideoComponent from './MyVideoComponent';
 import MyVideoComponent2 from './MyVideoComponent2';
 import MyVideoComponent3 from './MyVideoComponent3';
@@ -124,9 +120,9 @@ function App() {
                         <h5>{selectedTitle}</h5>
                         <h5>{selectedDescription}</h5>
                         <div className="button-section">
-                            <a href={selectedWebsite} className="button-link" target="_blank" rel="noopener noreferrer">
+                            <a href={selectedWebsite} className="button-link">
                                 <div className="button-content">
-                                    <img src={logo} alt="Logo" className="button-logo" />
+                                
                                     <span className="button-text">Repository</span>
                                 </div>
                             </a>
@@ -138,7 +134,7 @@ function App() {
             <div id="creativeVideos" className="videos-title">
                 <span className="video_intro">Creative Videos</span>
             </div>
-            {/*<GoogleDriveVideo />*/}
+          
             <div className="part1">
                 <MyVideoComponent />
                 <MyVideoComponent2 />

@@ -1,5 +1,5 @@
 import React from 'react';
-import videoFile5 from '/Users/mistercap/WebstormProjects/project_mrcap/src/333sized.mp4';
+import videoFile5 from './333sized.mp4';
 
 
 
