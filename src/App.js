@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import './App.css';
 import Basket from './Baskt.json';
 import Waving from './Waving.json';
@@ -33,6 +33,7 @@ import {
 } from './Logos/logos';
 
 const Projects = () => {
+  const cardRef = useRef(null);
   const projects = [
     {
       image: firstproj,
@@ -63,7 +64,7 @@ const Projects = () => {
     setSelectedDescription(description);
     setSelectedWebsite(website);
     setOverlayVisible(true);
-    document.body.classList.add('no-scroll');
+
   };
   const closeOverlay = () => {
     setSelectedImage(null);
@@ -71,7 +72,6 @@ const Projects = () => {
     setSelectedDescription('');
     setSelectedWebsite('');
     setOverlayVisible(false);
-    document.body.classList.remove('no-scroll');
   };
 
   const nextProject = () => {
@@ -86,9 +86,21 @@ const Projects = () => {
   };
 
   const currentProject = projects[currentProjectIndex];
+  ////to close modal 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if(cardRef.current && !cardRef.current.contains(event.target)) {
+        closeOverlay();
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return() => {
+      document.removeEventListener('mousedown',handleClickOutside);
+    }
+  },[closeOverlay]);
 
   return (
-    <div className="projects">
+    <div className="projects"> 
       <div className="projects-items desktop-view">
         {projects.map((project, index) => (
           <article
@@ -138,14 +150,14 @@ const Projects = () => {
 
       {overlayVisible && (
         <div className="overlay">
-          <span className="close-overlay" onClick={closeOverlay}>
-            &times;
-          </span>
-          <div className="card">
+          <div className="card" ref={cardRef}>
             <img src={selectedImage} className="overlay-image" />
+            {/* <span className="close-overlay" onClick={closeOverlay}>
+            &times;
+          </span> */}
             <div className="card-content">
               <h5>{selectedTitle}</h5>
-              <h5>{selectedDescription}</h5>
+              <h6>{selectedDescription}</h6>
               <div className="button-section">
                 <a href={selectedWebsite} className="button-link">
                   <div className="button-content">

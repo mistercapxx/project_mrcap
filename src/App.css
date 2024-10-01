@@ -275,21 +275,20 @@ body {
   top: 50%;
   width: 70%;
   left: 50%;
-  z-index: 999;
   transform: translate(-50%, -50%);
-  transition: opacity 1.5s ease-in-out;
-}
-.overlay.visible {
-  opacity: 1;
-}
-.overlay-image {
-  position: relative;
-  margin-top: 2%;
-  margin-left: 14%;
-  max-height: 610px;
+  z-index: 999;
 }
 
-.close-overlay {
+.overlay-image {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2%;
+  width: 950px;
+  padding: 15px;
+  max-width: 100%;
+}
+
+/* .close-overlay {
   position: absolute;
   top: 5px;
   margin-right: 22px;
@@ -297,23 +296,29 @@ body {
   font-size: 50px;
   color: white;
   cursor: pointer;
-}
-.no-scroll {
-  overflow: hidden;
-}
+} */
+
 .card {
   background-color: #26283b;
   border-radius: 10px;
   overflow: hidden;
+  border: 2px solid #ccc;
+  align-items: center; 
 }
 .card-content {
   padding: 20px;
+  border: 2px solid #ccc;
   color: white;
   text-align: center;
-  font-size: 2.2em;
+  font-size: 1.2em;
+}
+.card-content h5 {
+  margin: 10px 10px;
+  font-size: 35px;
 }
 .card-content h6 {
-  margin: 10px 10px;
+  margin: 20px 20px;
+  font-size: 18px;
 }
 .button-content {
   display: flex;
